@@ -4,7 +4,7 @@ const container = document.querySelector('.container');
 
 //ITENS 
 const logo = document.querySelector('.logo img');
-const purchase = document.querySelector('.purchase button');
+const acessar = document.querySelector('.acessar button');
 
 //DANDO VIDA PARA ANIMAÇÃO
 
@@ -19,8 +19,8 @@ container.addEventListener('mousemove', (e) => {
 //ANIMAÇÃO DENTRO
 container.addEventListener('mouseenter', e => {
     card.style.transition = 'none';
-    logo.style.transform = 'translateZ(200px) rotateZ(-360deg)';
-    purchase.style.transform = 'translateZ(75px)';
+    logo.style.transform = 'translateZ(250px)';
+    acessar.style.transform = 'translateZ(75px)';
 
 });
 //ANIMAÇÃO FORA
@@ -28,5 +28,5 @@ container.addEventListener("mouseleave", (e) => {
     card.style.transition = "all 0.5s ease";
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     logo.style.transform = 'translateZ(0px) rotateZ(0deg)';
-    purchase.style.transform = 'translateZ(0px)';
+    acessar.style.transform = 'translateZ(0px)';
 });

@@ -44,16 +44,16 @@ button.active {
     color: white;
 }
 
-.purchase {
-    margin-top: 3rem;
+.acessar {
+    margin-top: 4rem;
     transition: all 0.75s ease-out;
 }
 
-.purchase button {
+.acessar button {
     width: 100%;
     padding: 1rem 0rem;
     background: black;
-    border: none;
+    border:none;
     color: white;
     cursor: pointer;
     border-radius: 10px;
