@@ -3,6 +3,13 @@
     padding: 0;
     text-decoration: none;
 }
+body {
+    color: white;
+    background-image:url(img/bk.png);
+    margin: 0;
+    padding: 0;
+}
+
 
 /*IMPLEMENTANDO SIDEBAR RESPONSIVO*/
 
@@ -134,13 +141,6 @@ label #cancel {
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #1414118;
-}
-
-body {
-    color: white;
-    background-image:url(img/bk.png);
-    margin: 0;
-    padding: 0;
 }
 
 /*CONSTRUÇÃO INICIAL DA BARRA LATERAL*/
