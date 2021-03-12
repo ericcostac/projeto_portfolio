@@ -138,7 +138,7 @@ label #cancel {
 
 body {
     color: white;
-    background-color: black;
+    background-image:url(img/bk.png);
     margin: 0;
     padding: 0;
 }
