@@ -14,6 +14,32 @@ body {
     margin-left: 5%;
 }
 
+#titulo {
+    color: #00ECD0;
+    font-size: 60px;
+    margin-left: 60%;
+}
+fieldset {
+    border: 0;
+}
+
+input, button, textarea {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
 /*IMPLEMENTANDO SIDEBAR RESPONSIVO*/
 
 .sidebar {
