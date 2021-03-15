@@ -9,7 +9,10 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.logo {
+    margin-top: 4%;    
+    margin-left: 5%;
+}
 
 /*IMPLEMENTANDO SIDEBAR RESPONSIVO*/
 
