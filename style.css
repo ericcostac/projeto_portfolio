@@ -10,14 +10,22 @@ body {
     padding: 0;
 }
 .logo {
-    margin-top: 2%;    
+    margin-top: 9%;    
     margin-left: 5%;
 }
 
+#box {
+    width: 50%;
+    display: inline-block;
+}
+#box2 {
+    display: inline-block;
+   
+}
 #titulo {
     color: #00ECD0;
     font-size: 60px;
-    margin-left: 60%;
+ 
 }
 fieldset {
     border: 0;
@@ -39,6 +47,10 @@ input, button, textarea {
 fieldset.grupo .campo {
     float: left;
     margin-right: 1em;
+}
+
+form {
+    margin-left: 60%;
 }
 /*IMPLEMENTANDO SIDEBAR RESPONSIVO*/
 
