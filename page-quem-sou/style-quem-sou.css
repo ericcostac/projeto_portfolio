@@ -22,7 +22,8 @@ h1 {
 h2
  {
     color: black;
-    font-weight: 400;
+    font-weight: 100;
+    font-size: 16px;
 }
 h3 {
     font-weight: 200;
@@ -33,7 +34,7 @@ main {
     font-family: 'Red Hat Display', sans-serif;
     min-height: 100vh;
     /*background: linear-gradient(to right top, rgba(238, 234, 23, 0.753), #eef1479d); */ /*TESTAR GRADIENTE DE FUNDO*/ 
-    background-image: url(imagens-icon-quem-sou/fundo2.jpg) ;
+    background-image: url(imagens-icon-quem-sou/fundo2.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
