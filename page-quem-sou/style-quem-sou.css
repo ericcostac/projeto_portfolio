@@ -64,7 +64,7 @@ main {
 
 .link {
     display: flex;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     padding: 1rem 5rem;
     align-items: center;
 }
@@ -116,3 +116,20 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
+/*
+.user {
+    overflow: hidden;
+}
+.user img {
+    max-width: 100%;
+    -moz-transform: all 0.2s;
+    -webkit-transform: all 0.2s;
+    transition: all 0.2s;
+}
+
+.user:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+*/ 
