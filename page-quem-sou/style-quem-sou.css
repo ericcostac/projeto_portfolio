@@ -64,13 +64,13 @@ main {
 
 .link {
     display: flex;
-    margin: 1rem 0rem;
+    margin: 0.5rem 0rem;
     padding: 1rem 5rem;
     align-items: center;
 }
 
 .link h2 {
-    padding: 0rem 2rem;
+    padding: 0rem 0.5rem;
 }
 
 .quem-sou {
@@ -84,16 +84,42 @@ main {
     justify-content: space-evenly;
 }
 
-.card {
+.card-1,
+.card-2,
+.card-3{
     display: flex;
     background: linear-gradient(to left top, rgba(255,255,255, 1), rgba(255,255,255,0.8));
     border-radius: 1rem;
     margin: 1rem 0rem;
     padding: 1rem;
     justify-content: space-between;
+
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 100ms ease-in;
+    transform: scale(1); 
 }
 
-.progress {
+.card-1:hover,
+.card-2:hover,
+.card-3:hover{
+    box-shadow: 0px 0px 90px #000000;
+    z-index: 2;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 100ms ease-in;
+    transform: scale(1.1);
+  }
+  
+/*.progress {
     background: mediumturquoise;
     width: 100%;
     height: 25%;
@@ -109,6 +135,61 @@ main {
     background: rgb(236,236,236);
     position: absolute;
     left: 60%;
+}*/
+
+.progress-1 {
+    background: mediumturquoise;
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-1::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 95%;
+}
+
+.progress-2 {
+    background: mediumturquoise;
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-2::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 80%;
+}
+
+.progress-3 {
+    background: mediumturquoise;
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-3::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 60%;
+    
 }
 
 .card-info {
