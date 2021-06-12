@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
-h1 {
+.info h1 {
     color: black;
-    font-weight: 300;
+    padding: 20px;
+    font-weight: 500;
     font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
     
 }
+
+.info p {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 2px;
+
+}
+
 
 .card-info h2
  {
@@ -78,7 +89,7 @@ main {
 }
 
 .cards {
-    margin: 5rem;
+    margin:4rem 6rem 0rem; /*backup - margin: 2rem;*/
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
