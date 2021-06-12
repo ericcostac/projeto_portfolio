@@ -41,6 +41,13 @@ h3 {
     opacity: 0.5;
 }
 
+.skills {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-weight: 500;
+
+}
+
 main {
     font-family: 'Red Hat Display', sans-serif;
     min-height: 100vh;
@@ -73,7 +80,8 @@ main {
     border-radius: 2rem;
 }
 
-.link {
+.link a {
+    text-decoration: none;
     display: flex;
     margin: 0.5rem 0rem;
     padding: 1rem 5rem;
