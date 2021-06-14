@@ -48,11 +48,15 @@ h3 {
 
 }
 
+body {
+    /*background: linear-gradient(to right top, rgba(238, 234, 23, 0.753), #eef1479d); */ /*TESTAR GRADIENTE DE FUNDO*/ 
+    background-image: url(imagens-icon-quem-sou/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 main {
     font-family: 'Red Hat Display', sans-serif;
     min-height: 100vh;
-    /*background: linear-gradient(to right top, rgba(238, 234, 23, 0.753), #eef1479d); */ /*TESTAR GRADIENTE DE FUNDO*/ 
-    background-image: url(imagens-icon-quem-sou/fundo2.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,6 +94,13 @@ main {
 
 .link h2 {
     padding: 0rem 0.5rem;
+}
+/*Style OPCIONAL PARA O MENU DE LINKS*/
+.link h2:hover{
+    color:#48D1CC;
+    background: black;
+    font-weight: 400;
+    border-radius: 3px;
 }
 
 .quem-sou {
